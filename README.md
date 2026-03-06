@@ -1,4 +1,4 @@
-# SearchLoop — Autonomous Research Agent
+# ⟳ SearchLoop: Autonomous Research Agent
 
 An LLM-powered agentic pipeline that self-directs multi-step web research using tool-calling loops to produce structured reports, without human intervention at each step.
 
