@@ -18,7 +18,9 @@ def run_research_agent(query: str, gemini_api_key: str, tavily_api_key: str) -> 
                 formatted.append(f"Title: {r['title']}\nURL: {r['url']}\nContent: {r['content']}\n")
             return "\n---\n".join(formatted)
         except Exception as e:
-            return f"Search failed: {str(e)}"
+            error_msg = str(e)
+            search_log.append(f"⚠️ Search failed: {error_msg[:80]}")
+            return f"Search failed: {error_msg}"
 
     tools = [
         {
