@@ -3,7 +3,7 @@
 An LLM-powered agentic pipeline that self-directs multi-step web research using tool-calling loops to produce structured reports, without human intervention at each step.
 
 ## Demo
-
+[View Live Demo](https://searchloop.streamlit.app/)
 > **Query:** "What are the latest advances in vision transformers for medical imaging?"
 
 The agent autonomously breaks this into sub-questions, searches the web iteratively, evaluates whether it has sufficient coverage, and synthesizes a structured report.
