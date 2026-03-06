@@ -5,7 +5,7 @@ from src.agent import run_research_agent
 
 st.set_page_config(
     page_title="SearchLoop",
-    page_icon="🔬",
+    page_icon="⟳",
     layout="wide",
     initial_sidebar_state="expanded"
 )
